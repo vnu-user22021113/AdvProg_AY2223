@@ -17,7 +17,7 @@ int generateRandomNumber() {
     int x = rand();
     int y = rand();
     int z = rand();
-    return (x * y + z) % 100;
+    return (x * y + z) % 100 + 1;
 }
 
 
