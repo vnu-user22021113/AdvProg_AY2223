@@ -11,10 +11,7 @@ using std::cout;
 //Returns a random integer which is strictly smaller than the given cap
 int generateRandomNumber(const int cap)
 {
-    int u = rand();
-    int v = rand();
-    int w = rand();
-    return (u * v + w) % cap;
+    return rand() % cap;
 }
 
 /***
