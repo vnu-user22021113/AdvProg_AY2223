@@ -14,10 +14,7 @@ using namespace std;
 ***/
 int generateRandomNumber() {
     // TODO: Return the random number in range 1 to 100
-    int x = rand();
-    int y = rand();
-    int z = rand();
-    return (x * y + z) % 100 + 1;
+    return rand() % 100 + 1;
 }
 
 
